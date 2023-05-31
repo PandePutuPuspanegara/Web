@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: black;
+
+}
+
+.header{
+    padding: 20px 40px;
+    height: 30px;
+
+    background-color: white;
+
+    font-family: 'Heebo', sans-serif;
+    width: 100%;
+    position: fixed;
+    display: flex
+}
+
+.center ul li{
+    justify-content: center;
+}
+
+.header ul{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.header ul li{
+    margin-left: 30px;
+
+}
+
+.header ul li a{
+    text-decoration:none ;
+    color: black;
+}
+
+.header h1{
+    text-decoration:none ;
+    color: black;
+
+}
+
+#profile{
+    margin: 0;
+    padding: 0;
+    margin-top: 7%;
+    margin-right: 8%;
+
+
+}
+
+
+
+#Home{
+   background-image: url('ea422127c1d6.png');
+   background-size: cover;
+   background-position: center;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+
+.home-konten ul{
+    list-style:none ;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#kiri{ 
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 10%;
+    font-size: 38px;
+    margin-right: 7%;
+    margin-left: 6%;
+}
+
+#kiri h1{
+    margin-top: 7%;
+}
+
+#kiri p{
+    font-size: 18px;
+    margin-right: 18%;
+}
+
+
+
+#Project{
+    height: 400vh;
+    padding-top: 5%;
+    background-color: black;
+    color: white;
+   
+
+}
+
+#judul{
+    text-align: center;
+    font-size: 40px;
+}
+
+#About{
+    height: 6   0vh;
+    padding-top: 5%;
+    background-color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#Contact{
+    height: 40vh;
+    padding-top: 5%;
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#Contact h1{
+    color: white;
+    text-align: center;
+}
+
+#Contact ul{
+    margin-top: 5%;
+    display: flex;
+    margin-left: 30%;
+}
+
+#Contact ul li{
+    background-color: white;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 20px;
+    
+}
+
+
+.proyek ul li{
+    margin-top: 50px;
+    list-style-type:none ;
+    border: 1px solid white;
+    margin-right: 24%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.proyek ul{
+    margin-left: 18%;
+}
+
+.proyek ul li img{
+    border-radius: 20px;
+}
+
+.proyek ul li h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.proyek ul li h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.icon ul li{
+    background-color: none;
+    margin: 20px;
+}
+
+#About h1{
+    margin-left: 10%;
+    font-size: 40px;
+}
+
+#About h2{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+#About {
+    display: flex;
+}
+
+.right{
+    display: flex;
+    margin-right: 10%;
+}
+
+.right ul li{
+    list-style-type: none;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.proyek button{
+    padding: 4px 60px;
+    background: none;
+    border: solid 1px white;
+    border-radius: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.proyek button a{
+    text-decoration: none;
+    color: white;
+}
+
+.judul{
+    display: flex;
+    margin-bottom: 10px;
+}
